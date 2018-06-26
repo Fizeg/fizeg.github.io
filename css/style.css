@@ -132,10 +132,10 @@ p {
 	-webkit-backface-visibility: hidden;
 }
 .card_face-back {
-	-webkit-transform: translateY(-150%) rotateY(180deg);
-  	-ms-transform: translateY(-150%) rotateY(180deg);
+    -webkit-transform: translateY(-150%) rotateY(180deg);
+	-ms-transform: translateY(-150%) rotateY(180deg);
 	-o-transform: translateY(-150%) rotateY(180deg);
-  	transform: translateY(-150%) rotateY(180deg);
+	transform: translateY(-150%) rotateY(180deg);
 }
 .form button {
     background-color: #DD3C39;
@@ -1258,6 +1258,12 @@ p {
         transform: translateY(-50%);
         margin-bottom: 0;
     }
+    .card_face-back {
+	-webkit-transform: translateY(-150%) rotateY(180deg) !important;
+  	-ms-transform: translateY(-150%) rotateY(180deg) !important;
+	-o-transform: translateY(-150%) rotateY(180deg) !important;
+  	transform: translateY(-150%) rotateY(180deg) !important;
+    }
     .col-md-6 {
         height: 100vh;
     }
@@ -1294,6 +1300,12 @@ p {
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
         margin-bottom: 0;
+    }
+    .card_face-back {
+	-webkit-transform: translateY(-150%) rotateY(180deg) !important;
+  	-ms-transform: translateY(-150%) rotateY(180deg) !important;
+	-o-transform: translateY(-150%) rotateY(180deg) !important;
+  	transform: translateY(-150%) rotateY(180deg) !important;
     }
     .col-md-6 {
         height: 100vh;
