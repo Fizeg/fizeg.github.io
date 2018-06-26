@@ -1200,33 +1200,43 @@ p {
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-	.card {
+    .card {
         width: 375px;
         margin: 0 0 0 auto;
     }
-	.col-md-10 {
-		flex: 0 0 100%;
-		max-width: 100%;	
-	} 
-	.offset-md-1 {
-		margin-left: 0;
-	}
+    .col-md-10 {
+	flex: 0 0 100%;
+	max-width: 100%;	
+    } 
+    .offset-md-1 {
+	margin-left: 0;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .col-lg-3, .col-lg-9 {
+	height: 100%;
+        height: auto;
+    }
     .card {
         width: 375px;
         margin: 0 0 0 auto;
     }
     .block-title {
-        position: absolute;
+        position: relative;
         margin-left: 0;
-        margin-top: -225px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
         text-align: left;
         left: 0;
     }
     .card_face {
         top: 50%;
-        margin-top: -195px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
         margin-bottom: 0;
     }
     .col-md-6 {
@@ -1234,10 +1244,18 @@ p {
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .col-lg-3, .col-lg-9 {
+	height: 100%;
+        height: auto;
+    }
     .block-title {
-        position: absolute;
+        position: relative;
         margin-left: 0;
-        margin-top: -225px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
         text-align: left;
         left: 0;
     }
@@ -1246,8 +1264,12 @@ p {
         margin: 0 0 0 auto;
     }
     .card_face {
+	position: relative;    
         top: 50%;
-        margin-top: -195px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
         margin-bottom: 0;
     }
     .col-md-6 {
