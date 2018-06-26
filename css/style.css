@@ -1202,6 +1202,7 @@ p {
         margin: 0 auto;
     }
     .card_face {
+	position: absolute;
 	margin-top: 50px;
         margin-bottom: 50px;
         top: 0;
