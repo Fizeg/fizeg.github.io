@@ -1198,13 +1198,18 @@ p {
         margin: 0 auto;
     }
     .card_face {
-        margin-top: 50px;
         margin-bottom: 50px;
         top: 0;
         webkit-transform: translateY(0%);
         -ms-transform: translateY(0%);
         -o-transform: translateY(0%);
         transform: translateY(0%);   
+    }
+    .card_face-back {
+	-webkit-transform: translateY(-103%) rotateY(180deg) !important;
+	-ms-transform: translateY(-103%) rotateY(180deg) !important;
+	-o-transform: translateY(-103%) rotateY(180deg) !important;
+	transform: translateY(-103%) rotateY(180deg) !important;
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
