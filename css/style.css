@@ -1155,7 +1155,12 @@ p {
     opacity: 1;
   }
 }
-
+@media only screen and (max-width: 1140px) {
+    .animation-icon {
+        position: relative;
+        top: -10%;
+    }
+}
 @media only screen and (max-width: 1366px) {
     .animation-icon {
         position: relative;
