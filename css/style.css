@@ -1344,8 +1344,18 @@ p {
         max-width: 100%;
     }
 }
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+     .card {
+	 width: 50%;
+     }
+}
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
     }
+}
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+    .card {
+	 width: 75%;
+     } 
 }
