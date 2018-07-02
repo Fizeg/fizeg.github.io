@@ -163,6 +163,16 @@ p {
     border: none;
     height: 45px;
 }
+.form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B7B7B7;
+    opacity: 1; /* Firefox */
+}
+.form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #B7B7B7;
+}
+.form input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #B7B7B7;
+}
 .form-login .form-group-btn {
     margin-top: 8px;
     margin-bottom: 35px;
@@ -1189,7 +1199,7 @@ p {
         display: none;
     }
     .card {
-        width: 96%;
+        width: 100%;
         margin: 0 auto;
     }
     .card_face {
@@ -1239,7 +1249,7 @@ p {
   	transform: translateY(-150%) rotateY(180deg) !important;
     }
     .card {
-        width: 375px;
+        width: 50%;
         margin: 0 0 0 auto;
     }
     .col-md-10 {
@@ -1252,7 +1262,7 @@ p {
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
     .card {
-        width: 375px;
+        width: 50%;
         margin: 0 0 0 auto;
     }
     .block-title {
@@ -1302,10 +1312,6 @@ p {
         transform: translateY(-50%);
         text-align: left;
         left: 0;
-    }
-    .card {
-        width: 270px;
-        margin: 0 0 0 auto;
     }
     .card_face {
 	position: relative;    
