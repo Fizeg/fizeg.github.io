@@ -1299,7 +1299,7 @@ p {
         max-width: 50%;
     }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     .container {
         max-width: 100%;
     }
@@ -1339,12 +1339,12 @@ p {
         height: 100vh;
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .container {
         max-width: 100%;
     }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
     }
