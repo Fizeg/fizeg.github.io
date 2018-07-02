@@ -127,6 +127,7 @@ p {
 .card p {
     font-size: 11px;
     line-height: 17px;
+    padding-right: 10px;
 }
 .card_face {
     position: absolute;
