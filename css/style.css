@@ -137,9 +137,14 @@ p {
     -moz-box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.097);
     box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.097);
     color: #000;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
     background-color: #fff;
     backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 .card_face-back {
     -webkit-transform: translateY(-150%) rotateY(180deg);
