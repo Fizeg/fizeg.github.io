@@ -1204,7 +1204,7 @@ p {
         display: none;
     }
     .card {
-        width: 100%;
+        width: 273px;
         margin: 0 auto;
     }
 }
@@ -1281,7 +1281,7 @@ p {
 }
 @media only screen and (max-width: 768px) {
      .card {
-	width: 300px;
+	width: 273px;
      }
 }
 @media only screen and (max-width: 576px) {
@@ -1291,6 +1291,6 @@ p {
 }
 @media only screen and (max-width: 375px) {
     .card {
-	width: 290px;
+	width: 273px;
     } 
 }
