@@ -1254,7 +1254,6 @@ p {
   	transform: translateY(-150%) rotateY(180deg) !important;
     }
     .card {
-        width: 50%;
         margin: 0 0 0 auto;
     }
     .col-md-10 {
