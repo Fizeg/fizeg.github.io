@@ -102,7 +102,7 @@ p {
     height: 900px;
 }
 .card {
-    width: 325px;
+    width: 50%;
     height: 100%;
     margin: 0 95px 0 auto;
     transition: transform .8s;
@@ -112,24 +112,24 @@ p {
     border: none;
 }
 .card.scale {
-	 -webkit-transform: scale(1.05) !important;
-  	-ms-transform: scale(1.05) !important;
-	-o-transform: scale(1.05) !important;
-  	transform: scale(1.05) !important;
+    -webkit-transform: scale(1.05) !important;
+    -ms-transform: scale(1.05) !important;
+    -o-transform: scale(1.05) !important;
+    transform: scale(1.05) !important;
 }
 .card.is-flipped {
-	-webkit-transform: rotateY(180deg);
-  	-ms-transform: rotateY(180deg);
-	-o-transform: rotateY(180deg);
-  	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 .card_face {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-  	transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 100%;
     padding: 39px 26px 29px 24px;
     border-radius: 6px;
