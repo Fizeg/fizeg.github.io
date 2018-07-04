@@ -6,8 +6,8 @@ body {
 }
 h1 {
     font-size: 30px;
-    line-height: 39px;
-    margin-bottom: 15px;
+    line-height: 40px;
+    margin-bottom: 13px;
     letter-spacing: 0.2px;
 }
 h2 {
@@ -43,7 +43,7 @@ a, a:hover {
     position: absolute;
     top: 50%;
     margin-left: 115px;
-    margin-top: -187.5px;
+    margin-top: -185px;
 }
 .block-title p {
     font-size: 12px;
@@ -62,7 +62,7 @@ a, a:hover {
     display: inline-block;
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 23px;
     letter-spacing: 0.5px;
     color: #2B2B2B;
     margin-bottom: 9px;
