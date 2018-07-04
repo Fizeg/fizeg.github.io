@@ -1460,23 +1460,14 @@ a, a:hover {
         margin: 0 auto;
 	right: 0;
     }
-    .container {
-        max-width: 100% !important;
-    }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .block-title {
         margin-left: 0;
         text-align: left;
     }
-    .card {
-        margin: 0 0 0 auto;
-    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-    .card {
-        margin: 0 0 0 auto;
-    }
     .block-title {
         margin-left: 0;
         text-align: left;
@@ -1501,9 +1492,6 @@ a, a:hover {
     }
 }
 @media only screen and (max-width: 768px) {
-    .container {
-        max-width: 100%;
-    }
     .block-title {
         margin-top: 30px;
         position: static;
@@ -1518,11 +1506,6 @@ a, a:hover {
     }
     .col-md-6 {
         height: auto;
-    }
-}
-@media only screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
     }
 }
 @media only screen and (max-width: 250px) {
