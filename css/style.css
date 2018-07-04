@@ -28,8 +28,9 @@ a, a:hover {
 }
 .col-lg-4,
 .col-lg-8 {
-	height: 100%;
+    height: 100%;
     height: 100vh;
+    min-height: 400px;
 }
 .block-title {
     width: 170px;
@@ -96,6 +97,7 @@ a, a:hover {
     position: relative;
     width: 100%;
     height:100vh;
+    min-height: 400px;
     perspective: 600px;
     overflow: hidden;
 }
@@ -404,111 +406,111 @@ a, a:hover {
     right: 437px;
 }
 .icon-1.move {
-	-webkit-animation: run-1 2s infinite ease-in-out;
+    -webkit-animation: run-1 2s infinite ease-in-out;
     animation: run-1 2s infinite ease-in-out;
 }
 .icon-2.move {
-	-webkit-animation: run-2 2s infinite ease-in-out;
+    -webkit-animation: run-2 2s infinite ease-in-out;
     animation: run-2 2s infinite ease-in-out;
 }
 .icon-3.move {
-	-webkit-animation: run-3 2s infinite ease-in-out;
+    -webkit-animation: run-3 2s infinite ease-in-out;
     animation: run-3 2s infinite ease-in-out;
 }
 .icon-4.move {
-	-webkit-animation: run-4 2s infinite ease-in-out;
+    -webkit-animation: run-4 2s infinite ease-in-out;
     animation: run-4 2s infinite ease-in-out;
 }
 .icon-5.move {
-	-webkit-animation: run-5 2s infinite ease-in-out;
+    -webkit-animation: run-5 2s infinite ease-in-out;
     animation: run-5 2s infinite ease-in-out;
 }
 .icon-6.move {
-	-webkit-animation: run-6 2s infinite ease-in-out;
+    -webkit-animation: run-6 2s infinite ease-in-out;
     animation: run-6 2s infinite ease-in-out;
 }
 .icon-7.move {
-	-webkit-animation: run-1 2s infinite ease-in-out;
+    -webkit-animation: run-1 2s infinite ease-in-out;
     animation: run-1 2s infinite ease-in-out;
 }
 .icon-8.move {
-	-webkit-animation: run-8 2s infinite ease-in-out;
+    -webkit-animation: run-8 2s infinite ease-in-out;
     animation: run-8 2s infinite ease-in-out;
 }
 .icon-9.move {
-	-webkit-animation: run-8 2s infinite ease-in-out;
+    -webkit-animation: run-8 2s infinite ease-in-out;
     animation: run-8 2s infinite ease-in-out;
 }
 .icon-11.move {
-	-webkit-animation: run-15 2s infinite ease-in-out;
+    -webkit-animation: run-15 2s infinite ease-in-out;
     animation: run-15 2s infinite ease-in-out;
 }
 .icon-12.move {
-	-webkit-animation: run-6 2s infinite ease-in-out;
+    -webkit-animation: run-6 2s infinite ease-in-out;
     animation: run-6 2s infinite ease-in-out;
 }
 .icon-13.move {
-	-webkit-animation: run-3 2s infinite ease-in-out;
+    -webkit-animation: run-3 2s infinite ease-in-out;
     animation: run-3 2s infinite ease-in-out;
 }
 .icon-14.move {
-	-webkit-animation: run-4 2s infinite ease-in-out;
+    -webkit-animation: run-4 2s infinite ease-in-out;
     animation: run-4 2s infinite ease-in-out;
 }
 .icon-15.move {
-	-webkit-animation: run-15 2s infinite ease-in-out;
+    -webkit-animation: run-15 2s infinite ease-in-out;
     animation: run-15 2s infinite ease-in-out;
 }
 .icon-16.move {
-	-webkit-animation: run-2 2s infinite ease-in-out;
+    -webkit-animation: run-2 2s infinite ease-in-out;
     animation: run-2 2s infinite ease-in-out;
 }
 .icon-17.move {
-	-webkit-animation: run-1 2s infinite ease-in-out;
+    -webkit-animation: run-1 2s infinite ease-in-out;
     animation: run-1 2s infinite ease-in-out;
 }
 .icon-18.move {
-	-webkit-animation: run-8 2s infinite ease-in-out;
+    -webkit-animation: run-8 2s infinite ease-in-out;
     animation: run-8 2s infinite ease-in-out;
 }
 .icon-19.move {
-	-webkit-animation: run-19 2s infinite ease-in-out;
+    -webkit-animation: run-19 2s infinite ease-in-out;
     animation: run-19 2s infinite ease-in-out;
 }
 .icon-21.move {
-	-webkit-animation: run-21 2s infinite ease-in-out;
+    -webkit-animation: run-21 2s infinite ease-in-out;
     animation: run-21 2s infinite ease-in-out;
 }
 .icon-22.move {
-	-webkit-animation: run-27 2s infinite ease-in-out;
+   -webkit-animation: run-27 2s infinite ease-in-out;
     animation: run-27 2s infinite ease-in-out;
 }
 .icon-23.move {
-	-webkit-animation: run-23 2s infinite ease-in-out;
+    -webkit-animation: run-23 2s infinite ease-in-out;
     animation: run-23 2s infinite ease-in-out;
 }
 .icon-24.move {
-	-webkit-animation: run-8 2s infinite ease-in-out;
+    -webkit-animation: run-8 2s infinite ease-in-out;
     animation: run-8 2s infinite ease-in-out;
 }
 .icon-25.move {
-	-webkit-animation: run-25 2s infinite ease-in-out;
+    -webkit-animation: run-25 2s infinite ease-in-out;
     animation: run-25 2s infinite ease-in-out;
 }
 .icon-26.move {
-	-webkit-animation: run-26 2s infinite ease-in-out;
+    -webkit-animation: run-26 2s infinite ease-in-out;
     animation: run-26 2s infinite ease-in-out;
 }
 .icon-27.move {
-	-webkit-animation: run-27 2s infinite ease-in-out;
+    -webkit-animation: run-27 2s infinite ease-in-out;
     animation: run-27 2s infinite ease-in-out;
 }
 .icon-28.move {
-	-webkit-animation: run-19 2s infinite ease-in-out;
+    -webkit-animation: run-19 2s infinite ease-in-out;
     animation: run-19 2s infinite ease-in-out;
 }
 .icon-29.move {
-	-webkit-animation: run-29 2s infinite ease-in-out;
+    -webkit-animation: run-29 2s infinite ease-in-out;
     animation: run-29 2s infinite ease-in-out;
 }
 
@@ -1441,10 +1443,6 @@ a, a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-    .col-lg-3, .col-lg-9 {
-	    height: 100%;
-        height: auto;
-    }
     .block-title {
         margin-left: auto;
         margin-right: auto;
@@ -1464,13 +1462,6 @@ a, a:hover {
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    .col-lg-3, .col-lg-9 {
-	   height: 100%;
-        height: 100vh;
-	   -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
     .block-title {
         margin-left: 0;
         text-align: left;
@@ -1493,24 +1484,13 @@ a, a:hover {
     .col-md-6 {
         height: 100vh;
     }
-    .col-lg-3, .col-lg-9 {
-	   height: 100%;
-        height: 100vh;
-	   -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
 }
 @media only screen and (max-width: 992px) {
     .container {
-        max-width: 100%;
+        max-width: 100% !important;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .col-lg-3, .col-lg-9 {
-	   height: 100%;
-        height: 100vh;
-    }
     .block-title {
         margin-left: 0;
         text-align: left;
@@ -1545,5 +1525,10 @@ a, a:hover {
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .card {
+        width: 220px;
     }
 }
