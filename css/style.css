@@ -59,28 +59,19 @@ a, a:hover {
     margin-bottom: 30px;
 }
 .phones a {
-    display: block;
+    display: inline-block;
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #2B2B2B;
     margin-bottom: 9px;
+    border-bottom: 2px solid rgba(221, 60, 57, 1.0);
 }
 .phones a:hover {
     text-decoration: none;
-}
-.phones a span {
-    border-bottom: 2px solid rgba(221, 60, 57, 1.0);
-}
-.phones a:hover span {
-    color: rgba(221, 60, 57, 0.7);	
     border-bottom: 2px solid rgba(221, 60, 57, 0.7);
-    -webkit-transition: all .15s ease-in-out;
-    -moz-transition: all .15s ease-in-out;
-    -ms-transition: all .15s ease-in-out;
-    -o-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
+    color: rgba(221, 60, 57, 0.7);
 }
 .social a {
     display: inline-block;
@@ -167,9 +158,9 @@ a, a:hover {
 }
 .card_face-back {
     -webkit-transform: rotateY(180deg);
-	-ms-transform:  rotateY(180deg);
-	-o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
+    -ms-transform:  rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 .form-group {
     margin-bottom: 12px;
