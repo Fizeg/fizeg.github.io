@@ -56,13 +56,13 @@ a, a:hover {
     width: 98px;
 }
 .phones {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .phones a {
     display: inline-block;
     font-weight: bold;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: 0.5px;
     color: #2B2B2B;
     margin-bottom: 9px;
