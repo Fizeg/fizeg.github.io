@@ -4,19 +4,20 @@ $(function(){
     var card = $('.card');
     var forgot = $('.forgot-pass-btn');
     var backLogin = $('.back-login-btn');
+    card.flip({
+      trigger: 'manual'
+    });
     forgot.on( 'click', function() {
         timeout = setTimeout(function(){
             card.addClass('scale');
             icon.addClass('move');
         }, 100);
         timeout = setTimeout(function(){
-           card.addClass('is-flipped');
-        }, 500);
-        timeout = setTimeout(function(){
-            card.removeClass('scale');
+            card.flip(true);
         }, 1000);
         timeout = setTimeout(function(){
             icon.removeClass('move');
+            card.removeClass('scale');
         }, 2100);
         return false;
     }); 
@@ -26,14 +27,13 @@ $(function(){
             icon.addClass('move');
         }, 100);
         timeout = setTimeout(function(){
-           card.removeClass('is-flipped');
-        }, 500);
-        timeout = setTimeout(function(){
-            card.removeClass('scale');
+            card.flip(false);
         }, 1000);
         timeout = setTimeout(function(){
             icon.removeClass('move');
+            card.removeClass('scale');
         }, 2100);
         return false;
-    }); 
+    });
+ 
 });
